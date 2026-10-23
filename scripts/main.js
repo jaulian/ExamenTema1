@@ -53,3 +53,7 @@ btnNext.addEventListener('click', function() {
     pswdFinal.innerText = "Contraseña: "
     pswdFinal.append(enterPswd.value)
 })
+
+const estrella = document.getElementById("estrella")
+
+estrella.classList.add("desaparecer")

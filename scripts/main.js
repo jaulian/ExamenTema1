@@ -21,20 +21,19 @@ enterNom.focus()
 
 btnNext.addEventListener('click', function() {
 
-
-
     cambio++
 
     switch (cambio) {
         case 1:
             paginaNom.classList.add("hidden")
             paginaEmail.classList.remove("hidden")
+            enterEmail.focus()
             break;
 
         case 2:
             paginaEmail.classList.add("hidden")
             paginaPswd.classList.remove("hidden")
-            enterEmail.focus()
+            enterPswd.focus()
             break;
             
         case 3:

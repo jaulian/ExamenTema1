@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario por partes</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenid@ al NeXo 🤖</h1>
+    </header>
+
+    <main>
+    <div id="borderOAlgo"></div>
+        <div id="paginaNom">
+            <div id="mensajeNom">Bienvenid@ a nuestros sistema, viajero. Necesitamos que te registres en el Nexo para poder atracar a tu nave</div>
+
+            <input id="enterNom" placeholder="Nombre de usuario" type="text"></input>  
+        </div>
+
+        <div id="paginaEmail">
+            <div id="mensajeEmail">Ahora necesitamos un correo electrónico para enviarte el cifrado de tu tarjeta de embarque</div>
+
+            <input id="enterEmail" placeholder="Introduce un correo electrónico" type="email"></input>
+        </div>
+
+        <div id="paginaPswd">
+            <div id="mensajePswd">Por último, debes cifrar tus datos con una contraseña. No pasa nada, te la enviaremos al correo proporcionado anteriormente</div>
+
+            <input id="enterPswd" placeholder="Introduce una contraseña" type="password"></input>
+        </div>
+
+        <div id="paginaFinal">
+            <div id="mensajeFinal">Vamos a comprobar que todo esta bien introducido en el sistema</div>
+
+            <div id="datosFinales">
+                <div id="nombreFinal"></div>
+                <div id="emailFinal"></div>
+                <div id="pswdFinal"></div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <button id="btnNext">SIGUIENTE</button>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

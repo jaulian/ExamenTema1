@@ -19,7 +19,6 @@ main {
     background-color: grey;
     padding: 30px;
     border-radius: 10px;
-    opacity: 50%;
 }
 
 #btnNext {
@@ -30,11 +29,13 @@ main {
 
 .hidden{display:none}
 
-#paginaNom {
-    display: flex;
+#mensajeNom {
+    margin-right: 50%;
 }
 
+
 #enterNom {
+    margin-left: 50%;
     padding: 10px;
     border-radius: 5px;
     
